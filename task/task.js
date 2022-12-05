@@ -21,7 +21,7 @@ const download = (callShowDownload) => {
 };
 
 const main = async () => { 
-    show = await download(showDownload);
+    const show = await download(showDownload);
     return show;
 };
 
